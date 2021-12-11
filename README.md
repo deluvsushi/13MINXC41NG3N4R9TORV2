@@ -19,9 +19,9 @@ Coin Generator v2 for https://aminoapps.com
 - apt update -y
 - apt upgrade -y
 - pkg install python
+- pip install requests
 - git clone https://github.com/deluvsushi/AminoCoinGeneratorV2
 - cd AminoCoinGeneratorV2.py
-- pip install -r requirements.txt
 - python AminoCoinGeneratorV2.py
 
 ### Windows
