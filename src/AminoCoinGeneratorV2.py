@@ -1,7 +1,7 @@
+import menu_configs
 from json import load
 from requests import post
 from threading import Thread
-from . import menu_configs
 from concurrent.futures import ThreadPoolExecutor
 
 auids = []
