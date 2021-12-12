@@ -4,7 +4,7 @@ from requests import post
 from threading import Thread
 from concurrent.futures import ThreadPoolExecutor
 
-auids = []
+auids = [ ]
 with open("auids.json") as data:
     auids_list = load(data)
     for auid in auids_list:
